@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0c10;
+  --color-panel: #11151c;
+  --color-panel-2: #161b24;
+  --color-line: #232a36;
+  --color-mut: #8b95a7;
+  --color-txt: #e7ecf4;
+  --color-accent: #f0a500;
+  --color-ok: #37c98b;
+  --color-warn: #f0a500;
+  --color-bad: #f05d5d;
+}
+
+html, body { background: var(--color-ink); color: var(--color-txt); }
+
+body {
+  font-family: system-ui, "Segoe UI", Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* أرقامٌ تُقرأ في عمود: عرضٌ ثابت للخانة */
+.tnum { font-variant-numeric: tabular-nums; }
